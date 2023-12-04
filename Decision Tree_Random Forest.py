@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt # imports and saves package name under variable 
 """
 Dataset: read in csv and become familiar with dataset 
 """
-ions = pd.read_csv("/Users/faridatlawal/DTSC710/Assignment3/ionosphere.csv", header=None) # read in dataset from file on computer and save to a variable name for access in python
+ions = pd.read_csv("/Users/faridatl/Downloads/ionosphere.csv", header=None) # read in dataset from file on computer and save to a variable name for access in python
 ions.isnull().sum() # checks for missing variables in data set
 
 """ Split dataset into X and Y for training and testing """
